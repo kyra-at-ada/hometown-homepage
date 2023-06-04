@@ -1,0 +1,119 @@
+*{
+    margin: 0
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+    width: 200px;
+}
+
+.act-desc{
+    width: 250px;
+}
+
+.act-title{
+    padding: 15px 0 8px 0;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.navy{
+    color: #1D3557;
+}
+
+
+
+#activities {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #cfe3c6;
+    padding: 50px 0 100px 0;
+}
+
+#activities-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 39px;
+    
+}
+
+#avatar {
+    width: 180px;
+}
+
+#cols {
+    display: flex;
+    flex-basis: 33%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#guide {
+    background: #87bec0;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+    padding: 23px;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+}
+
+#guide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#hero {
+    align-items: center;    
+    background-image: url("images/portland.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    max-height: 33vh;
+    margin: 0 auto;
+    padding: 122px 0;
+}
+
+
+#subheader {
+    background: #3d5f66;
+    border-radius: 10px;
+    box-shadow: 0 0 1px black;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    padding: 8px 30px 8px 30px;
+    margin: 10px 0;
+    
+}
+
+#welcome-msg {
+    color: #FFFFFF;
+    background: #46343a;
+    border-radius: 10px;
+    box-shadow: 0 0 1px black;
+    font-size: 32px;
+    padding: 5px 12px;
+}
